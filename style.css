@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#map-2023, #map-2024, #map-growth, #map-density, #map-percent{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+.state {
+    stroke: #333;
+    stroke-width: 1px;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#top-10-population-growth, #bottom-10-population-growth,
+#top-10-population-2023, #bottom-10-population-2023, 
+#top-10-population-2024, #bottom-10-population-2024, 
+#top-10-population-percent, #bottom-10-population-percent,
+#top-10-population-density, #bottom-10-population-density {
+    width: 960px;
+    margin-top: 20px;
+    margin: auto;
+
+}
+
+#top-10-population-growth h3, #bottom-10-population-growth h3,
+#top-10-population-2023 h3, #bottom-10-population-2023 h3,
+#top-10-population-2024 h3, #bottom-10-population-2024 h3,
+#top-10-population-percent h3, #bottom-10-population-percent h3,
+#top-10-population-density h3, #bottom-10-population-density h3 {
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+#top-10-population-growth-list ul, #bottom-10-population-growth-list ul,
+#top-10-population-2023-list ul, #bottom-10-population-2023-list ul,
+#top-10-population-2024-list ul, #bottom-10-population-2024-list ul,
+#top-10-population-percent-list ul, #bottom-10-population-percent-list ul,
+#top-10-population-density-list ul, #bottom-10-population-density-list ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+ul li:hover {
+    background-color: plum;
+}
+
+h1, h2, li {
+    text-align: center;
+    list-style-type: none;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.next {
+    background-color: plum;
+    color: black;
+}
+
+.previous {
+    background-color: plum;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
